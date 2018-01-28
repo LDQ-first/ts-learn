@@ -49,7 +49,7 @@ zhangsan.contact = ["北京xxxxxxx别墅", 2]
 zhangsan.saveMonth = false
 zhangsan.other = '不好不坏的人'
 
-let len = (<string>zhangsan.other).length
+let len = (zhangsan.other as string).length
 
 console.log(len)
 question(zhangsan.answer())
