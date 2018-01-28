@@ -6,3 +6,5 @@
 
 > tsc baby.ts
 
+> tsc baby.ts -d
+
